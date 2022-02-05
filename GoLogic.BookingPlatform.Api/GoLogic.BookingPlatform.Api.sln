@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoLogic.BookingPlatform.Api", "GoLogic.BookingPlatform.Api\GoLogic.BookingPlatform.Api.csproj", "{180E4234-F53B-4859-A0DD-512F02B25F89}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoLogic.BookingPlatform.Domain", "GoLogic.BookingPlatform.Domain\GoLogic.BookingPlatform.Domain.csproj", "{B4BA0CFE-972E-4CAA-8D48-9A95E87F81C5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{07F77A49-3AB2-4007-BBE0-9C04D24B4B5C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{61876381-030F-47DA-B4D1-79FFD1B7EE7A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoLogic.BookingPlatform.Application", "GoLogic.BookingPlatform.Application\GoLogic.BookingPlatform.Application.csproj", "{FADD28C3-CAFE-4DE7-913E-551328191669}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoLogic.BookingPlatform.Infrastructure", "GoLogic.BookingPlatform.Infrastructure\GoLogic.BookingPlatform.Infrastructure.csproj", "{4DA66975-EEFE-4708-BEAF-16A7F6BF7052}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoLogic.BookingPlatform.Infrastructure.UnitTests", "GoLogic.BookingPlatform.Infrastructure.UnitTests\GoLogic.BookingPlatform.Infrastructure.UnitTests.csproj", "{9185E78C-1764-4C29-9D39-8661025C96CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{180E4234-F53B-4859-A0DD-512F02B25F89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{180E4234-F53B-4859-A0DD-512F02B25F89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{180E4234-F53B-4859-A0DD-512F02B25F89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{180E4234-F53B-4859-A0DD-512F02B25F89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4BA0CFE-972E-4CAA-8D48-9A95E87F81C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4BA0CFE-972E-4CAA-8D48-9A95E87F81C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4BA0CFE-972E-4CAA-8D48-9A95E87F81C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4BA0CFE-972E-4CAA-8D48-9A95E87F81C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FADD28C3-CAFE-4DE7-913E-551328191669}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FADD28C3-CAFE-4DE7-913E-551328191669}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FADD28C3-CAFE-4DE7-913E-551328191669}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FADD28C3-CAFE-4DE7-913E-551328191669}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DA66975-EEFE-4708-BEAF-16A7F6BF7052}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DA66975-EEFE-4708-BEAF-16A7F6BF7052}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DA66975-EEFE-4708-BEAF-16A7F6BF7052}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DA66975-EEFE-4708-BEAF-16A7F6BF7052}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9185E78C-1764-4C29-9D39-8661025C96CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9185E78C-1764-4C29-9D39-8661025C96CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9185E78C-1764-4C29-9D39-8661025C96CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9185E78C-1764-4C29-9D39-8661025C96CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{180E4234-F53B-4859-A0DD-512F02B25F89} = {07F77A49-3AB2-4007-BBE0-9C04D24B4B5C}
+		{B4BA0CFE-972E-4CAA-8D48-9A95E87F81C5} = {07F77A49-3AB2-4007-BBE0-9C04D24B4B5C}
+		{FADD28C3-CAFE-4DE7-913E-551328191669} = {07F77A49-3AB2-4007-BBE0-9C04D24B4B5C}
+		{4DA66975-EEFE-4708-BEAF-16A7F6BF7052} = {07F77A49-3AB2-4007-BBE0-9C04D24B4B5C}
+		{9185E78C-1764-4C29-9D39-8661025C96CC} = {61876381-030F-47DA-B4D1-79FFD1B7EE7A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {313546D0-7AF7-4932-A8B9-6DAC1225B021}
+	EndGlobalSection
+EndGlobal
