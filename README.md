@@ -1,3 +1,4 @@
+
 # GoLogic-Coding-Challenge-API
 ## Description
 This repository is a API UI prototype for a Booking Platform which consumers can get a list of rooms, get a room to see more details and can post selected dates to rent or book the room. Rooms that have already been booked with the same dates or within the range of the booked dates cannot be booked by the users anymore. Booking of a room will have restriction with it's room capacity that it can accommodate guests and a user will book using an email.
@@ -33,4 +34,5 @@ This is back-end stack uses **Asp.Net Web API .Net Core 3.1** and **.Net Standar
 ## Trade-offs
 - Implement authentication and authorzation for the APIs, have implemented it but removed it as it would make the code base a bit dirty. Performance or query profiling to the LINQ queries of EF Core. Endpoints for populating datas not having to seed them with EF Core. Code refactoring for any simplication or try follwing standards and best practices. Try more to follow and incorporate DDD in the application.
 ## Public Profile
-[LinkedIn](http://https://www.linkedin.com/in/peter-john-r-hugo-050078101/ "LinkedIn")
+- [LinkedIn](http://https://www.linkedin.com/in/peter-john-r-hugo-050078101/ "LinkedIn")
+- [API repo](https://github.com/JohnHugo1105/GoLogic-Coding-Challenge-API)
