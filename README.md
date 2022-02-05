@@ -31,6 +31,6 @@ This is back-end stack uses **Asp.Net Web API .Net Core 3.1** and **.Net Standar
 ### Why Swashbuckle?
 - Follows Swagger interface description language and provides a rich Swagger/Swagger UI interface and helps and REST Api documentation.
 ## Trade-offs
-- Implement authentication and authorzation for the APIs, have implemented it but removed it as it would make the code base a bit dirty. Performance or query profiling to the LINQ queries of EF Core. Endpoints for populating datas not having to seed them with EF Core. Code refactoring for any simplication or try follwing standards and best practices.
+- Implement authentication and authorzation for the APIs, have implemented it but removed it as it would make the code base a bit dirty. Performance or query profiling to the LINQ queries of EF Core. Endpoints for populating datas not having to seed them with EF Core. Code refactoring for any simplication or try follwing standards and best practices. Try more to follow and incorporate DDD in the application.
 ## Public Profile
 [LinkedIn](http://https://www.linkedin.com/in/peter-john-r-hugo-050078101/ "LinkedIn")
