@@ -6,7 +6,7 @@ This repository is a API UI prototype for a Booking Platform which consumers can
 This API is based on Clean Architecture which I believe makes a project scalable, maintanable and testable. The core or specifically the domain can be reuse accross enterprise applications like different platforms because it has no dependencies to other external like libraries or frameworks.
 
 ## Stack
-This is back-end stack uses **Asp.Net Web API .Net Core 3.1** and **.Net Standard 2.1** and nuget packages **MediatR**, **FluentValidation**, **Entity Framework Core**, **AutoMapper**, **NLog** and **Swashbuckle**.
+This is back-end stack uses **Asp.Net Web API .Net Core 3.1** and **.Net Standard 2.1** and nuget packages **MediatR**, **FluentValidation**, **Entity Framework Core**, **AutoMapper**, **NLog**, **NUnit** and **Swashbuckle**.
 ### Why Asp.Net Web API .Net Core 3.1?
 - Build in support for dependency injection.
 - Cross platform therefore it can run on a non Windows environment.
@@ -26,7 +26,9 @@ This is back-end stack uses **Asp.Net Web API .Net Core 3.1** and **.Net Standar
 - Reduces the need for explicit  mapping of models/dtos, makes code base a lot cleaner.
 ## NLog
 - Have not used other logging package but I believe it has great logging features and easy to use.
+## NUnit
+- Have not used other automated testings, but I believe NUnit is one of the most popular one and widely used and for me it's easy to use and greate features.
 ## Swashbuckle
 - Follows Swagger interface description language and provides a rich Swagger/Swagger UI interface and helps and REST Api documentation.
 ## Trade-offs
-- Implement authentication and authorzation for the APIs, have implemented it but removed it as it would make the code base a bit dirty. Performance or query profiling to the LINQ queries of EF Core. Code refactoring for any simplication or try follwing standards and best practices.
+- Implement authentication and authorzation for the APIs, have implemented it but removed it as it would make the code base a bit dirty. Performance or query profiling to the LINQ queries of EF Core. Endpoints for populating datas not having to seed them with EF Core. Code refactoring for any simplication or try follwing standards and best practices.
